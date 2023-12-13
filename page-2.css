@@ -1,0 +1,41 @@
+.page-2-container {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 23px 75px;
+    /* background-color: rebeccapurple; */
+}
+
+.page-2-content {
+    display: flex;
+    width: 100%;
+}
+
+.page-2-content-left-side {
+    display: flex;
+    min-width: 50%;
+}
+
+.page-2-content-left-side img {
+    width: 100%;
+    height: 100% !important;
+    border-radius: 23px;
+}
+
+.page-2-content-right-side {
+    padding: 1.2em 3em;
+
+}
+
+.page-2-content-right-side h3 {
+    color: #143864;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+.page-2-content-right-side p {
+    color: #143864;
+    line-height: 22px;
+    margin: 12px 0;
+}

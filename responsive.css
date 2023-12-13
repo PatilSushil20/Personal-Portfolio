@@ -1,0 +1,506 @@
+@media (max-width:768px) {
+
+    /* ------------------------------- This is for home page ------------------------------- */
+
+    header nav {
+        padding: 0 2em;
+    }
+
+
+    .page-1-content {
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-top: 84px;
+    }
+
+    .page-1-content-container {
+        padding: 0em 2em 0;
+    }
+
+    .page-1-content-left-side {
+        margin-right: 0em;
+        margin-top: 34px;
+    }
+
+    .blob-background {
+        background-image: url(blob.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 103%;
+        margin-top: -41px;
+        min-width: 200px;
+        max-width: 5em;
+    }
+
+
+    .page-1-content-right-side img {
+        width: 100%;
+        margin-top: 0;
+    }
+
+
+
+    .page-1-content-left-side h1 {
+        margin: 8px 0;
+        font-size: 28px;
+    }
+
+    .page-1-content-left-side p {
+        font-size: 18px;
+        line-height: 28px;
+
+    }
+
+    header nav ul li img {
+        width: 22px;
+        margin: 0 5px;
+    }
+
+    header nav ul li a {
+        font-size: 16px;
+    }
+
+    header nav span {
+        font-size: 23px;
+    }
+
+    header nav ul li {
+        margin: 0 5px;
+    }
+
+    .nav-bar-links li {
+        margin: 0 12px;
+    }
+
+
+    .page-1-content-right-side {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .page-1-content-left-side h2 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+
+    /* ------------------------------- This is for about page ------------------------------- */
+
+    .page-2-container {
+        padding: 25px 2em;
+    }
+
+    .page-2-content-right-side {
+        padding: 23px 0;
+    }
+
+    .page-2-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    /* ------------------------------- This is for Project page ------------------------------- */
+
+    .page-3-content {
+        margin: 2em 1.5em;
+    }
+
+    .page-3-content-container {
+        width: 100%;
+        /* background-color: red; */
+    }
+
+    .page-3-container {
+        padding: 3em 2em;
+    }
+
+
+    .project-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* padding: 0 3em; */
+        margin-top: 3em;
+    }
+
+    .project-right-side {
+        text-align: center;
+        padding: 10px 5px;
+        line-height: 25px;
+    }
+
+    .project-left-side img {
+        width: 50%;
+    }
+
+    .project-left-side {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    /* this is for the contact page  */
+
+
+    .page-4-container {
+        min-height: 90vh;
+        padding: 0 2em;
+        display: flex;
+    }
+
+    .page-4-inner-left-side {
+        padding: 0;
+        width: 100%;
+    }
+
+    .page-4-content-container {
+        flex-direction: column;
+    }
+
+    .page-4-inner-left-side p {
+        margin-top: 8px;
+        line-height: 18px;
+    }
+
+    .page-4-inner-container h2 {
+        margin: 2em 0 1em;
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+
+    .contact a {
+        margin: 3px 0;
+    }
+
+    .contact a:nth-child(3)>img {
+        width: 22px;
+    }
+
+    .page-4-inner-left-side strong {
+        font-size: 18px;
+        text-shadow: 1px 1px 1px black;
+        margin-top: 0px;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+
+    .footer big {
+        font-size: 16px;
+    }
+
+    .folio {
+        font-size: 14px;
+        margin: 0 8px;
+    }
+
+    .footer-content {
+        font-size: 12px;
+    }
+
+    .terms {
+        font-size: 12px;
+    }
+
+}
+
+
+@media (max-width:570px) {
+    .nav-bar-links {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        height: 62%;
+        width: 25%;
+        min-width: 13em;
+        border-radius: 0 250px 250px 0;
+        line-height: 80px;
+        align-items: center;
+        justify-content: center;
+        top: 100px;
+        left: -100%;
+        background-color: #B8E8E8;
+        border: 2px double #30DB91;
+        transition: 0.4s ease;
+        border-left: none;
+    }
+
+    #ham-burger {
+        display: block;
+    }
+
+    .nav-bar-links a {
+        color: #143864;
+        font-size: 22px;
+    }
+
+    header nav span {
+        font-size: 18px;
+    }
+
+    .main-header>nav>li>a>img {
+        width: 24px;
+    }
+
+    header nav {
+        padding: 0 1em;
+    }
+
+    .main-header>nav>li,
+    .main-header>nav>li>a {
+        font-size: 0px;
+        color: #B8E8E8;
+    }
+
+
+    .page-1-content-right-side {
+        display: flex;
+        margin-top: 43px;
+        justify-content: center;
+    }
+
+
+    .blob-background {
+        margin-top: 0px;
+        max-width: 100px;
+        width: 60%;
+        min-width: 18em;
+        float: right;
+        background-position: center;
+        background-position-x: 16px;
+    }
+
+    .page-1-content-right-side img {
+        width: 85%;
+        height: 95%;
+        margin-left: 0px;
+        margin-top: 0px;
+        float: right;
+    }
+
+
+    .page-1-content-container {
+        padding: 0em 1em 0;
+    }
+
+    .page-1-content {
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .page-1-content-left-side {
+        margin-right: 0em;
+        margin-top: 18px;
+    }
+
+    .page-1-content-left-side h2 {
+        font-size: 2rem;
+    }
+
+    .page-1-content-left-side h1 {
+        margin: 12px 0;
+        font-size: 1.6em;
+    }
+
+
+    .page-1-content-left-side p {
+        font-size: 1.5rem;
+        line-height: 32px;
+    }
+
+
+    /* this is for the about page  */
+
+    .page-2-container {
+        padding: 0px 1em;
+        /* height: 100vh; */
+    }
+
+    .page-2-content-right-side h3 {
+        margin-bottom: 0;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .page-2-content-right-side p {
+        line-height: 32px;
+        margin: 15px 0 0;
+        font-size: 1.5rem;
+    }
+
+
+    /* this is for the projects page  */
+    .page-3-container {
+        padding: 0em 1em;
+        margin-top: 4rem;
+    }
+
+    .page-3-heading h3 {
+        margin-bottom: 5px;
+        font-size: 2rem;
+    }
+
+    .page-3-heading {
+        margin: 0 0;
+    }
+
+    .page-3-heading strong {
+        font-size: 1.6rem;
+        color: #143864;
+        margin: 2rem 0;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0em;
+    }
+
+    .project-left-side img {
+        width: 100%;
+        border-radius: 12px;
+    }
+
+    .project-right-side p {
+        color: #0F2F5B;
+        font-size: 1.5rem;
+        line-height: 32px;
+    }
+
+    .project-right-side {
+        text-align: justify;
+        padding: 0 0 12px;
+        line-height: 18px;
+    }
+
+    .project-right-side h3 {
+        font-size: 1.5rem;
+        text-shadow: 1px 1px 1px #0F2F5B;
+        letter-spacing: 1px;
+        margin: 22px 0;
+    }
+
+    .page-3-content {
+        margin: 2em 0;
+    }
+
+    .tech {
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tech b {
+        color: #143864;
+        margin: 0 7px;
+        font-size: 1.3rem;
+    }
+
+    .visit-project a {
+        font-size: 1.5rem;
+    }
+
+    .visit-project {
+        justify-content: space-between;
+        margin-top: 1.5rem;
+        font-size: 12px;
+    }
+
+    .project-icons>img {
+        margin: 0 6px;
+        width: 1.5rem;
+    }
+
+
+    /* this is for page 4 */
+
+    .page-4-container {
+        padding: 0 1em;
+        min-height: 80vh;
+        margin-bottom: 2rem;
+    }
+
+    .page-4-inner-container h2 {
+        /* margin-top: 0; */
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+
+    .page-4-inner-left-side strong {
+        font-size: 1.5rem;
+        text-shadow: 1px 1px 1px #B8E8E8;
+    }
+
+    .page-4-inner-left-side p {
+        margin-top: 5px;
+        line-height: 32px;
+        font-size: 1.5rem;
+    }
+
+    .contact a {
+        margin: 5px 0 5px;
+        font-size: 1.4rem;
+    }
+
+
+    .contact a:nth-child(3)>img {
+        width: 1.8rem;
+    }
+
+    .page-4-inner-right-side form input {
+        padding: 6px;
+        border-radius: 4px;
+    }
+
+
+    .input-text {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .page-4-inner-right-side form input:nth-child(2) {
+        margin: 8px 0 0 0;
+    }
+
+
+    .page-4-inner-right-side form textarea {
+        margin: 8px 0;
+        border-radius: 4px;
+        padding: 8px;
+    }
+
+    .page-4-inner-right-side form button {
+        padding: 8px;
+        border-radius: 4px;
+        background-color: #28D992;
+        color: #FBFDFC;
+        border: none;
+    }
+
+    ::placeholder {
+        font-size: 12px;
+        font-weight: 100;
+    }
+
+    .terms {
+        font-size: 10px;
+    }
+
+    .footer-content {
+        font-size: 9px;
+    }
+
+    .footer {
+        height: 60px;
+        padding: 12px 1em;
+    }
+
+}

@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+/* this is for hamburger icon */
+
+
+#ham-burger {
+    display: none;
+}
+
+.box {
+    height: 35px;
+    width: 35px;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box div {
+    height: 5px;
+    width: 100%;
+    line-height: 10px;
+    margin: 2px 0;
+    border-radius: 2px;
+    background-color: #0F2F5B;
+    transition: 0.4s ease;
+}
+
+.box div:nth-child(1).active {
+    transform: rotate(45deg)translateY(6px) translateX(7px);
+}
+
+.box div:nth-child(2).active {
+    opacity: 0;
+    transform: scale(0);
+    visibility: hidden;
+}
+
+.box div:nth-child(3).active {
+    transform: rotate(-45deg) translateY(-6px) translateX(6px);
+}
+
+
+
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #E0F8F7;
+}
+
+.main-header {
+    height: 70px;
+    position: fixed;
+}
+
+.main-header>nav>li,
+.main-header>nav>li>a {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.main-header>nav>a {
+    text-decoration: none;
+}
+
+.main-header>nav>li>a>img {
+    margin: 0 5px;
+    width: 28px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 100vw;
+    background: #B8E8E8;
+}
+
+header nav span {
+    color: rgb(56, 13, 13);
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #30DB91;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #0F2F5B;
+    letter-spacing: 4px;
+}
+
+.nav-bar-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar-links li {
+    margin: 0 22px;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-bar-links li,
+.nav-bar-links a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-bar-links a {
+    display: flex;
+    align-items: center;
+}
+
+.page-1-content-container {
+    padding: 3em 5em 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E0F8F7;
+}
+
+.page-1-content {
+    display: flex;
+    width: 100%;
+}
+
+.page-1-content-left-side {
+    min-width: 60%;
+    /* background: black; */
+    color: #143864;
+    margin-right: 3em;
+}
+
+.page-1-content-left-side h2 {
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.page-1-content-left-side h1 {
+    margin: 16px 0;
+    font-size: 46px;
+}
+
+.page-1-content-left-side p {
+    font-size: 22px;
+    line-height: 33px;
+}
+
+
+.blob-background {
+    background-image: url(blob.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: -23px;
+    min-width: 300px;
+}
+
+.page-1-content-right-side img {
+    margin-top: -4em;
+    width: 100%;
+}
